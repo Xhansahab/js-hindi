@@ -38,9 +38,33 @@ const anotherId = Symbol('123')
 //  console.log(myObj);
  
 //  //-------------***----------Function----------***------------
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
     
-}
+// }
  
-console.log(typeof myFunction);
+
+// console.log(typeof myFunction);
+
+// https://ecma-international.org/publications-and-standards/standards/ecma-262/
+
+// Stack (primitive Datatype)---------- Heap (Non-Primitive Datatype)
+
+let MyName = "Sahab"
+let anotherName = "MyName"
+anotherName = "Saif khan"
+console.log(MyName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@yahoo.com",
+    upi: "user@ybl"
+}
+ let userTwo = userOne
+
+ userTwo.email = "S@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+ 
