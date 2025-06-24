@@ -13,3 +13,28 @@ if (true){
 //  console.log(c);
 
  // lecture no 22 done Succesfully...!
+
+ function one(){
+    const username = "Sahab"
+    function two (){
+        const website = "Linkdin"
+        console.log(username);
+        
+    }
+    //console.log(website);
+
+       two()
+ 
+ }
+// one()
+
+if (true) {
+    const username = "Sahab"
+    if (username === "Sahab"){
+        const website = "youtube"
+        console.log(username + website);
+        
+    }
+    //console.log(website);
+    
+}
