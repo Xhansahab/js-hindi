@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Football Match Predictor",
+    "description": "Predicts match results using real-time data and ML",
+    "tech": "Python, Flask, API-Football, JS",
+    "image": "assets/projects/project1.png",
+    "github": "https://github.com/saif/football-predictor",
+    "live": "https://your-live-link.com"
+  }
+]
